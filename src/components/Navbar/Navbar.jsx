@@ -10,42 +10,57 @@ const Navbar = () => {
     <div className="bg-[#303946] ">
       <div className="max-w-[1300px] justify-center gap-4 lg:justify-around mx-auto flex items-center   py-3">
         {/* logo and title  */}
-        
+
         <div className="flex gap-1 items-center">
           <img src={assets.logo} alt="logo" width={40} />
-      
+
           <h1 className="text-white md:text-2xl lg:text-3xl">Firstbench</h1>
         </div>
 
         {/* desktop nav links  */}
         <nav className="hidden lg:flex gap-4 text-[#b5becb] md:text-[12px] lg:text-[14px]">
           <div className="flex gap-1 items-center">
-            <NavLink to="/" className="flex gap-1 ">
+            <NavLink to="/Firstbench-Frontend/dashboard" className="flex gap-1 ">
               <img src={assets.home} alt="logo" className="" width={20} />
               Dashboard
             </NavLink>
           </div>
-          <NavLink to="/firstguru" className="flex gap-1 items-center">
+          <NavLink
+            to="/Firstbench-Frontend/firstguru"
+            className="flex gap-1 items-center"
+          >
             <img src={assets.sparkle} alt="logo" className="" width={20} />
             FirstGuru
           </NavLink>
 
-          <NavLink to="/townhall" className="flex gap-1 items-center">
+          <NavLink
+            to="/Firstbench-Frontend/townhall"
+            className="flex gap-1 items-center"
+          >
             <img src={assets.tower} alt="logo" className="" width={20} />
             TownHall
           </NavLink>
 
-          <NavLink to="/ai-evaluation" className="flex gap-1 items-center">
+          <NavLink
+            to="/Firstbench-Frontend/ai-evaluation"
+            className="flex gap-1 items-center"
+          >
             <img src={assets.bolt} alt="logo" className="" width={20} />
             AI Evaluatian
           </NavLink>
 
-          <NavLink to="/performance" className="flex gap-1 items-center">
+          <NavLink
+            to="/Firstbench-Frontend/performance"
+            className="flex gap-1 items-center"
+          >
             <img src={assets.navgraph} alt="logo" className="" width={20} />
             Performance
           </NavLink>
 
-          <NavLink to="/mock-test" className="flex gap-1 items-center">
+          <NavLink
+            to="/Firstbench-Frontend/mock-test"
+            className="flex gap-1 items-center"
+          >
             <img src={assets.papers} alt="logo" className="" width={20} />
             Mock Test
           </NavLink>
@@ -108,32 +123,50 @@ const Navbar = () => {
             </div>
             <nav className="flex flex-col gap-4 text-[#b5becb] md:text-[12px] mx-4">
               <div className="flex gap-1 items-center">
-                <NavLink to="/" className="flex gap-1 ">
+                <NavLink
+                  to="/Firstbench-Frontend/dashboard"
+                  className="flex gap-1 "
+                >
                   <img src={assets.home} alt="logo" className="" width={20} />
                   Dashboard
                 </NavLink>
               </div>
-              <NavLink to="/firstguru" className="flex gap-1 items-center">
+              <NavLink
+                to="/Firstbench-Frontend/firstguru"
+                className="flex gap-1 items-center"
+              >
                 <img src={assets.sparkle} alt="logo" className="" width={20} />
                 FirstGuru
               </NavLink>
 
-              <NavLink to="/townhall" className="flex gap-1 items-center">
+              <NavLink
+                to="/Firstbench-Frontend/townhall"
+                className="flex gap-1 items-center"
+              >
                 <img src={assets.tower} alt="logo" className="" width={20} />
                 TownHall
               </NavLink>
 
-              <NavLink to="/ai-evaluation" className="flex gap-1 items-center">
+              <NavLink
+                to="/Firstbench-Frontend/ai-evaluation"
+                className="flex gap-1 items-center"
+              >
                 <img src={assets.bolt} alt="logo" className="" width={20} />
                 AI Evaluatian
               </NavLink>
 
-              <NavLink to="/performance" className="flex gap-1 items-center">
+              <NavLink
+                to="/Firstbench-Frontend/performance"
+                className="flex gap-1 items-center"
+              >
                 <img src={assets.navgraph} alt="logo" className="" width={20} />
                 Performance
               </NavLink>
 
-              <NavLink to="/mock-test" className="flex gap-1 items-center">
+              <NavLink
+                to="/Firstbench-Frontend/mock-test"
+                className="flex gap-1 items-center"
+              >
                 <img src={assets.papers} alt="logo" className="" width={20} />
                 Mock Test
               </NavLink>

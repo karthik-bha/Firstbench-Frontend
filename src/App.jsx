@@ -9,11 +9,10 @@ function App() {
     <div className="font-[Outfit]">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Dashboard/>}/>
+        <Route path="/Firstbench-Frontend/dashboard" element={<Dashboard />} />
       </Routes>
-      
     </div>
-  )
+  );
 }
 
 export default App

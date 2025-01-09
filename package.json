@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://karthik-bha.github.io/Firstbench-Frontend",
+  "homepage": "https://karthik-bha.github.io/Firstbench-Frontend/dashboard",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
